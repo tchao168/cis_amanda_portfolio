@@ -3,8 +3,8 @@ COLOR PALETTE
 Choose a color palette and paste the hex codes here to use below
 https://coolors.co/
 
-#540d9c Dark color for fonts on a light background
-#E0AAFF light color for fonts on a dark background
+#540d9c Dark color for fonts on a light background dark purple
+#E0AAFF light color for fonts on a dark background  light pink purple
 
 */
 
@@ -69,7 +69,7 @@ html {
     margin: 0;
   }
   .divider > section {
-    border-bottom: 1px dashed #5A189A;
+    border-bottom: 1px dashed #540d9c;
     padding: 25px 0;
   }
   .divider > section:last-of-type {
@@ -79,7 +79,7 @@ html {
   
   /* Profile
   ------------------------------------*/
-  .header { background: #5A189A;
+  .header { background: #540d9c;
       color:#E0AAFF;
    
   }
@@ -103,7 +103,7 @@ html {
     display: inline-block;
   }
   .projects .btn:hover {
-     background: #5A189A; 
+     background: #540d9c; 
   }
   .project-item {
     overflow: hidden;
