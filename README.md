@@ -4,7 +4,7 @@ main program
     index.html
     styles.css
 three project images:
-    Band_Tinker_Gui.png
+    Band_Tkinter_Gui.png
     GreenVase.png
     SoundOfSilence-Final.jpg
 Degree you have or you are going to approach
