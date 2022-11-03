@@ -8,9 +8,16 @@
         <!-- Add your own choice of Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&
+                    family=Source+Serif+Pro&family=Titan+One&family=Ultra&display=swap"
+                     rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="styles.css">
+
+    <!-- Assignment: midterm-Student PortFolio Project
+            Name: Taichun Chao          Instructor: Sable Cantus
+            Date: 11/02/ 2022        file include: -->
+
     </head>
 
     <body>
@@ -22,7 +29,7 @@
                     <h2>Future Computer Worker</h2>
 
                     <p>Building websites might be an interesting job, you only need to learn HTML, CSS and Javascript 
-                        then you can build up your own website.  If you have a few programming languages support, you can even build your future.</p>
+                        then you can build your own website.  If you have a few programming languages support, you can even build up your future.</p>
                     <!-- e.g. I love building websites, and learning to code! -->
                     <h3>Something about me...</h3>
                     <p>Every Sunday of school year, I go to Tzu Chi Chinese sunday school at Monrovia either work as a Chinese language substitute teacher or a volunteer, 
@@ -68,7 +75,11 @@
                     <!-- Project 3 -->
                     <section class="project-item">
                         <!-- Add an image to feature your project -->
-                        <img src="SoundOfSilence-Final.jpg" alt="Sound Of Silence">
+                        <a href="#" onclick="javascript:document.images['large_photo'].src = 
+                         'SoundOfSilence-Final.jpg'">                                         
+                        <img  id="large_photo" style="border: 1px solid black; margin-right: 3px;"
+                        src="SoundOfSilence-small.jpg" alt="Sound Of Silence #1"></a>
+                        <!-- <img src="SoundOfSilence-Final.jpg" alt="Sound Of Silence"> -->
                         <h3>Sound Of Silence</h3>
                         <p>Photo Shop Project:
                           This project is to pick a song you like with a few lyrics
@@ -77,9 +88,8 @@
                             she open her mouth..., but anything she said just fly away. Leave her
                             river of tears and endless silence.</p>
                         
-
-                        <a class="btn" href="SoundOfSilence-Final.jpg" target="_blank">[Click here]</a>
-                        <p>== Open a bigger image ==</p>
+                        <!-- <a class="btn" href="SoundOfSilence-Final.jpg" target="_blank">[Click here]</a>
+                        <p>== Open a bigger image ==</p> -->
                     </section>
                 </div>
             </section>
@@ -92,9 +102,9 @@
                     <h2>Education</h2>
 
                     <!-- If you are working on the certificate, add this here, or put in your own program information -->
-                    <section>
+                    <!-- <section> -->
                         <h3>Azusa Pacific University   1993 Dec. </h3>
-                        <a class="btn" href="A Story.pdf" target="_blank">Master Science</a>
+                        <!-- <a class="btn" href="A Story.pdf" target="_blank">Master Science</a> -->
                             <p>MS Computer Applied Science & Technology</p>
                         <h3>CIS Professional in Web Programming</h3>
                         <p>Working on this currently.</p>
@@ -104,9 +114,13 @@
                         <a class="btn"
                             href="https://catalog.mtsac.edu/programs/programsaz/computer-programming/cis-professional-certificate-web-programming/"
                             target="_blank">Web Programming Certificate</a>
-                    </section>
+                    <!-- </section> -->
+                </div>
+            </section> 
 
                     <!-- List your classes here -->
+            <section class="tclass">
+                <div class="content-wrap item-details">
                     <section>
                         <h3>Class 1</h3>
                         <p>CISW17 Fall 2022</p>
