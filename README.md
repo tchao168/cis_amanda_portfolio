@@ -8,6 +8,6 @@ three project images:
     GreenVase.png
     SoundOfSilence-Final.jpg
 Degree you have or you are going to approach
-    A Story.pdf
+
 Class you take in 2022 Fall
 README.md
